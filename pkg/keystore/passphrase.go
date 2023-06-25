@@ -38,10 +38,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/demo58/gotron-sdk/pkg/address"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/pborman/uuid"
-	"github.com/syr2bill/gotron-sdk/pkg/address"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
 )

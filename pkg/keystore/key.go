@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/demo58/gotron-sdk/pkg/address"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/pborman/uuid"
-	"github.com/syr2bill/gotron-sdk/pkg/address"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/syr2bill/gotron-sdk/pkg/keystore"
-	"github.com/syr2bill/gotron-sdk/pkg/store"
+	"github.com/demo58/gotron-sdk/pkg/keystore"
+	"github.com/demo58/gotron-sdk/pkg/store"
 )
 
 // ExportPrivateKey from account

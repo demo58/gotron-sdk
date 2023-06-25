@@ -6,12 +6,12 @@ import (
 	"math/big"
 
 	"github.com/spf13/cobra"
-	"github.com/syr2bill/gotron-sdk/pkg/address"
-	"github.com/syr2bill/gotron-sdk/pkg/client/transaction"
-	"github.com/syr2bill/gotron-sdk/pkg/common"
-	"github.com/syr2bill/gotron-sdk/pkg/common/decimals"
-	"github.com/syr2bill/gotron-sdk/pkg/keystore"
-	"github.com/syr2bill/gotron-sdk/pkg/store"
+	"github.com/demo58/gotron-sdk/pkg/address"
+	"github.com/demo58/gotron-sdk/pkg/client/transaction"
+	"github.com/demo58/gotron-sdk/pkg/common"
+	"github.com/demo58/gotron-sdk/pkg/common/decimals"
+	"github.com/demo58/gotron-sdk/pkg/keystore"
+	"github.com/demo58/gotron-sdk/pkg/store"
 )
 
 func trc20Sub() []*cobra.Command {
