@@ -9,7 +9,6 @@ import (
 	"github.com/demo58/gotron-sdk/pkg/common"
 	"github.com/demo58/gotron-sdk/pkg/proto/core"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 )
 
 type DerivationPath []uint32
@@ -181,7 +180,7 @@ func RecoverPubkey(hash []byte, signature []byte) (address.Address, error) {
 		signature[64] -= 27
 	}
 
-	sigPublicKey, err := secp256k1.RecoverPubkey(hash, signature)
+	sigPublicKey, err := crypto.Ecrecover(hash, signature)
 	if err != nil {
 		return nil, err
 	}
